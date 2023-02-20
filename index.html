@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--
+        1. Follow the instructions atop the [Recipes project](/courses/foundations/lessons/recipes) to set 
+        up a GitHub repository for this project (of course you'll need to change the title). 
+        2. Create a blank HTML document. 
+        3. Come up with a plan -- which sections of the page should be grouped together
+         (e.g. the navigation bar vs the video vs the sidebar etc)? 
+        4. Create empty semantic HTML elements to enclose those sections.
+        5. Use basic CSS to size and position them appropriately on the page. 
+          It may be helpful to make their backgrounds different colors so you can see the different sections.
+           Don't forget to use your browser's developer tools (right click on the page, click "inspect element")!
+        6. Now let's start filling in those divs with content by creating the navbar. 
+        7. Watch [this YouTube video on embedding a YouTube video in a webpage](https://www.youtube.com/watch?v=lJIrF4YjHfQ&feature=emb_title).
+        8. Embed a YouTube video of your choice into your page.
+        9. Next, build the sidebar section where previews of suggested videos show up. 
+           Obviously don't worry about generating those previews... just grab some thumbnail-sized images and plug them in.
+        10. Next, finish up by filling in some of the elements below the video -- the title, description and number of views.
+             Ignore the icons (many of them are produced using sprites or more advanced techniques 
+             so you won't be able to just grab them by copying them). 
+        11. Push your solution up to GitHub.
+    -->
+    
+        <ul id="unorder">
+            <li><a href="#video">video</a></li>
+            <li><a href="#adress">Address</a></li>
+            <li><a href="#about">About</a></li>
+          
+        </ul>
+        <br>
+    <div class="main"></div>
+    <div id="about">
+       <h1>About Us Page</h1>
+       <p> <img src="img/images.jpeg" width="100" height="100"></p>
+       <p>Some text about who I am and what this webpage does.</p>
+       
+    </div>
+
+   </div>
+
+    <div id="video">
+        <video width="320" height="240" controls>
+            <source src="movie.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            Your browser does not support the video tag.
+          </video>
+
+    </div>
+
+    <footer id="adress">
+        <address>
+            Written by <a href="mailto:beteland23@gmail.com">Betel Andarge</a>.<br> 
+            Visit us at:linkedin<br>
+            Box 11, Addis Ababa<br>
+            Ethiopia
+        </address>
+
+    </footer>
+    </div>
+
+    
+</body>
+</html>

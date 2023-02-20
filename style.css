@@ -1,0 +1,41 @@
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
+ 
+  a:hover {
+    color: hotpink;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+
+    background-color: #9eda13;
+    padding: 14px 16px;
+    
+  }
+  #unorder {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(5, 48, 11);;
+  }
+  #about{
+    background: aliceblue;
+  }
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(5, 48, 11);
+    color: white;
+  }
+  body{
+    background: rgb(187, 185, 185);
+  }
