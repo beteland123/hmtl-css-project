@@ -7,23 +7,39 @@
  }
   
  .frame{
-  flex-direction: column;
+    flex-direction: column;
     flex-basis:30%;
     height: 100px;
     margin:0 0 10px;
  } 
  
-  .views{
-    flex-basis:70%;
-    justify-content:flex-start;
-    color:#888;
-    font-size:1.1em;
-  }
+ textarea{
+  border: none;
+  bottom:0cm;
+  width: 50%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
   
+ }
   ul {
     list-style-type: none;
+    color: black;
     
     
+  }
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  a:link {
+    text-decoration: none;
   }
   
   #header{
@@ -35,7 +51,7 @@
     top:0;
    
   }
- 
+  
   body{
     background: rgb(247, 243, 243);
   }
@@ -43,7 +59,10 @@
     float:left;
     margin-left:10px;
  }
- 
+ .previews{
+  width:auto;
+  margin:0 0 10px;
+ }
  
   .sidenav {
     height: 100%;
@@ -52,8 +71,8 @@
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #d3caca;
-    flex-basis:40%;
+    background-color:rgb(247, 243, 243);
+    overflow-x: hidden;
     flex-direction:column;
     padding:0 15px;
    
