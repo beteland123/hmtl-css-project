@@ -1,2 +1,2 @@
 # hmtl-css-project
-this project mainly focus on embeding vedios and images
+this project mainly focus on embeding videos and images
