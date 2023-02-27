@@ -12,6 +12,9 @@
     height: 100px;
     margin:0 0 10px;
  } 
+ .views{
+  color: rgb(86, 137, 182);
+ }
  
  textarea{
   border: none;
@@ -60,8 +63,12 @@
     margin-left:10px;
  }
  .previews{
-  width:auto;
-  margin:0 0 10px;
+  
+  max-width: 50%;
+  max-height: 50%;
+ }
+ .text{
+  font-size: 70px;
  }
  
   .sidenav {
@@ -73,7 +80,6 @@
     right: 0;
     background-color:rgb(247, 243, 243);
     overflow-x: hidden;
-    flex-direction:column;
     padding:0 15px;
    
   }
@@ -89,7 +95,13 @@
     max-width:70em; 
     margin:auto;
     padding:0;
-    align-items:flex-start;
+   
+  }
+  .a{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
   }
   
   
